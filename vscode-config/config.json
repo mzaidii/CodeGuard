@@ -1,0 +1,33 @@
+{
+  "models": [
+    {
+      "title": "Security Reviewer",
+      "provider": "ollama",
+      "model": "security-reviewer",
+      "apiBase": "http://localhost:11434"
+    }
+  ],
+  "customCommands": [
+    {
+      "name": "sec",
+      "description": "Full Security Review",
+      "prompt": "You are an expert security code reviewer. Analyze this code for vulnerabilities.\n\nIMPORTANT RULES:\n1. Identify the EXACT vulnerability type (SQL Injection, Command Injection, XSS, etc.)\n2. Explain HOW an attacker can exploit it with a concrete example\n3. Provide a WORKING fix that actually prevents the attack\n4. Do NOT just change string concatenation to string interpolation - that does NOT fix injection vulnerabilities\n\nCORRECT FIXES:\n- SQL Injection: Use parameterized queries with @parameters\n- Command Injection: Validate/whitelist input, avoid shell=true, use argument arrays\n- XSS: Use HTML encoding (HtmlEncode, escape functions)\n- Path Traversal: Validate path, use Path.GetFileName(), check against whitelist\n- Hardcoded Secrets: Use environment variables or secret managers\n\nRESPONSE FORMAT:\n\n## [VULNERABILITY NAME]\n**Severity:** CRITICAL | HIGH | MEDIUM | LOW\n**OWASP:** [Category]\n**Location:** [function or line]\n\n**Risk:** [Explain exactly how an attacker exploits this with example payload]\n\n**Vulnerable Code:**\n```\n[code]\n```\n\n**Fixed Code:**\n```\n[working secure code that actually prevents the attack]\n```\n\n**Why This Fix Works:** [Explain why the fix prevents the attack]\n\n---\n\nCode to review:\n\n{{{ input }}}"
+    },
+    {
+      "name": "secfix",
+      "description": "Fix all security vulnerabilities",
+      "prompt": "You are an expert security code reviewer. Fix ALL security vulnerabilities in this code.\n\nIMPORTANT:\n- Do NOT just change + to $ string interpolation - that does NOT fix injection\n- SQL Injection: Use parameterized queries (@param)\n- Command Injection: Validate input with whitelist regex, use argument arrays\n- XSS: Use HtmlEncode or equivalent\n- Path Traversal: Use Path.GetFileName(), validate against whitelist\n\nProvide the COMPLETE fixed code with comments explaining each fix.\n\nCode to fix:\n\n{{{ input }}}"
+    },
+    {
+      "name": "secquick",
+      "description": "Quick security summary",
+      "prompt": "List all security vulnerabilities in this code.\n\nFormat:\n- [SEVERITY] Vulnerability Type - Location - How attacker exploits it\n\nBe specific about the vulnerability type. Command Injection is NOT SQL Injection.\n\nCode:\n\n{{{ input }}}"
+    }
+  ],
+   "tabAutocompleteModel": {
+    "title": "Starcoder",
+    "provider": "ollama",
+    "model": "starcoder2:3b"
+  },
+  "allowAnonymousTelemetry": false
+}
