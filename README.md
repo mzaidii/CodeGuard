@@ -14,7 +14,11 @@
 ---
 
 ## 🎯 Features
-
+- **🔒 100% Private**
+  - Runs completely locally using Ollama
+  - No code sent to external servers
+  - Works offline
+    
 - **🔍 14+ Vulnerability Types Detected**
   - SQL Injection, Command Injection, XSS, Path Traversal
   - Hardcoded Secrets, Insecure Deserialization, SSRF, XXE
@@ -26,11 +30,6 @@
 - **🖥️ Two Ways to Scan**
   - **CLI Tool**: Scan entire projects, generate beautiful HTML reports
   - **VS Code Integration**: Real-time code review with `/sec` command
-
-- **🔒 100% Private**
-  - Runs completely locally using Ollama
-  - No code sent to external servers
-  - Works offline
 
 - **📊 Beautiful HTML Reports**
   - Clickable issue navigation
