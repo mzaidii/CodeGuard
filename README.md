@@ -73,6 +73,8 @@
   - Vulnerable code (from your source)
   - Recommended fix
   - Explanation of why it's vulnerable
+### HTML Report - Header & Summary
+![Report Header](screenshots/html-report.png)
 
 ### VS Code Integration
 - Select code → Run `/sec` command
