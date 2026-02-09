@@ -11,11 +11,6 @@
   <b>Detect security vulnerabilities in your code using local AI - No data leaves your machine!</b>
 </p>
 
-<p align="center">
-  <b>Detect security vulnerabilities in your code using local AI - No data leaves your machine!</b>
-</p>
----
-
 ## 🎯 Features
 
 - **🔒 100% Private**
