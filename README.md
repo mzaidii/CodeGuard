@@ -1,6 +1,8 @@
+
+<p align="center>
 # 🛡️ CodeGuard - AI-Powered Security Code Scanner
 
-<p align="center">
+
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/Ollama-Local%20LLM-green.svg" alt="Ollama">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
