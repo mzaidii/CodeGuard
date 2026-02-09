@@ -1,10 +1,14 @@
 # 🛡️ CodeGuard - AI-Powered Security Code Scanner
 
-<p align="center>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/Ollama-Local%20LLM-green.svg" alt="Ollama">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
   <img src="https://img.shields.io/badge/VS%20Code-Continue%20Extension-purple.svg" alt="VS Code">
+</p>
+
+<p align="center">
+  <b>Detect security vulnerabilities in your code using local AI - No data leaves your machine!</b>
 </p>
 
 <p align="center">
