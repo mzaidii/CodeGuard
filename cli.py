@@ -741,7 +741,7 @@ def generate_html_report(results, output_path):
                     LinkedIn
                 </a>
             </p>
-            <p style="margin-top: 10px; font-size: 0.85em;">Powered by Ollama + Qwen2.5-Coder</p>
+            <p style="margin-top: 10px; font-size: 0.85em;">Powered by Ollama + VulnLLM-R-7B</p>
         </div>
     </div>
     
