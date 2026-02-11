@@ -6,7 +6,11 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
   <img src="https://img.shields.io/badge/VS%20Code-Continue%20Extension-purple.svg" alt="VS Code">
 </p>
-![CodeGuard](assets/icon.png)
+<div align="center">
+  <img src="assets/icon.png" alt="CodeGuard Logo" width="200"/>
+  <h1>CodeGuard</h1>
+  <p>AI-Powered Security Code Scanner</p>
+</div>
 <p align="center">
   <b>Detect security vulnerabilities in your code using local AI - No data leaves your machine!</b>
 </p>
