@@ -7,8 +7,7 @@
   <img src="https://img.shields.io/badge/VS%20Code-Continue%20Extension-purple.svg" alt="VS Code">
 </p>
 <div align="center">
-  <img src="assets/icon.png" alt="CodeGuard Logo" width="200"/>
-  <h1>CodeGuard</h1>
+  <img src="assets/icon.png" alt="CodeGuard Logo" width="500"/>
   <p>AI-Powered Security Code Scanner</p>
 </div>
 <p align="center">
