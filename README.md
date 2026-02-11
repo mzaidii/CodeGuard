@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ CodeGuard - AI-Powered Security Code Scanner</h2>
+  <h1>🛡️ CodeGuard - AI-Powered Code Security Scanner</h2>
 </div>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 <div align="center">
   <img src="assets/icon.png" alt="CodeGuard Logo" width="500"/>
-  <p>AI-Powered Security Code Scanner</p>
+  <p>AI-Powered Code Security Scanner</p>
 </div>
 <p align="center">
   <b>Detect security vulnerabilities in your code using local AI - No data leaves your machine!</b>
